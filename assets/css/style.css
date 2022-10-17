@@ -8,7 +8,24 @@ body{
     background-color: palegreen;
 }
 
-.container{
+h1{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.containerNoob{
     display: flex;
     flex-wrap: wrap;
     max-width: 85%;
@@ -27,4 +44,8 @@ body{
 
 .red{
     background-color: red;
+}
+
+.hide{
+    display: none;
 }

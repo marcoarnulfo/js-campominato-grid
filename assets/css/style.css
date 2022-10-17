@@ -7,3 +7,24 @@
 body{
     background-color: palegreen;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 85%;
+    margin: auto;
+    margin-top: 10rem;
+    border: 3px solid red;
+}
+
+.casella{
+    text-align: center;
+    line-height: 111px;
+    width: calc(100% / 10);
+    aspect-ratio: 1 / 1;
+    background-color: aquamarine;
+}
+
+.red{
+    background-color: red;
+}
